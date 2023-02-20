@@ -4,7 +4,7 @@ import GlobalLoading from "../common/GlobalLoading";
 import Footer from "../common/Footer"
 import Topbar from "../common/Topbar"
 const MainLayout = () => {
-  console.log("df")
+
   return (
     <>
 
