@@ -1,5 +1,3 @@
-import { display } from "@mui/system";
-
 const uiConfigs = {
   style: {
     gradientBgImage: {
@@ -42,7 +40,7 @@ const uiConfigs = {
     }),
   },
   size: {
-    sidebarWith: "300px",
+    sidebarWidth: "600px",
     contentMaxWidth: "1366px",
   },
 };
