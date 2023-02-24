@@ -9,7 +9,7 @@ const mediaEndpoints = {
     `${mediaType}/search?query=${query}&page=${page}`,
 };
 
-const medaiApi = {
+const mediaApi = {
   getList: async ({ mediaType, mediaCategory, page }) => {
     try {
       const response = await publicClient.get(
@@ -44,3 +44,5 @@ const medaiApi = {
     }
   },
 };
+
+export default mediaApi;

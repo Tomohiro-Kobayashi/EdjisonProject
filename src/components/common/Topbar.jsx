@@ -79,7 +79,7 @@ const Topbar = () => {
                 <MenuIcon />
               </IconButton>
 
-              <Box sx={{ display: { xs: "inline-block", md: "none" } }}>
+              <Box sx={{ display: { sx: "inline-block", md: "none" } }}>
                 <Logo />
               </Box>
             </Stack>
@@ -88,7 +88,7 @@ const Topbar = () => {
             <Box
               flexGrow={1}
               alignItems="center"
-              display={{ xs: "none", md: "flex" }}
+              display={{ sx: "none", md: "flex" }}
             >
               <Box sx={{ marginRight: "30px" }}>
                 <Logo />
